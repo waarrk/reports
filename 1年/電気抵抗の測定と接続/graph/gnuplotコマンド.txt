@@ -1,0 +1,6 @@
+set xlabel "電圧計V[V]"
+set ylabel "電圧計E[V]"
+plot "data.txt" using 1:2 w lp title "電圧計V(倍率比2倍)"
+replot "data.txt" using 1:3 w lp title "電圧計Vm(倍率比2倍)"
+replot "data.txt" using 1:4 w lp title "電圧計V(倍率比3倍)"
+replot "data.txt" using 1:5 w lp title "電圧計Vm(倍率比3倍)"
