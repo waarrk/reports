@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  31 MAY 2021 02:10
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  26 JUN 2021 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/02LED点滅回路の製作/1stQ-2.tex
-(c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/02LED点滅回路の製作/1stQ-2.tex
+**c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03ダイオードとツェナダイオードの静特性/1stQ-3.tex
+(c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03ダイオードとツェナダイオードの静特性/1stQ-3.tex
 pLaTeX2e <2020-04-12> (based on LaTeX2e <2020-02-02> patch level 5)
 L3 programming layer <2020-06-18> (c:/texlive/2020/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2020/01/03 v1.8e Standard pLaTeX class
@@ -75,8 +75,8 @@ File: l3backend-dvips.def 2020-06-29 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count178
 \g__pdf_backend_link_int=\count179
 \g__pdf_backend_link_sf_int=\count180
-) (out/1stQ-2.aux)
-\openout1 = `1stQ-2.aux'.
+) (out/1stQ-3.aux)
+\openout1 = `1stQ-3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -124,22 +124,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
 [1
 
-]
-File: image/circuit.png Graphic file (type bmp)
-<image/circuit.png>
-[1] [2]
-File: image/board.jpg Graphic file (type bmp)
-<image/board.jpg>
-File: image/scope.jpg Graphic file (type bmp)
-<image/scope.jpg>
-[3] [4] (out/1stQ-2.aux) ) 
-Here is how much of TeX's memory you used:
- 1023 strings out of 480982
- 14874 string characters out of 5915965
- 258154 words of memory out of 5000000
- 17247 multiletter control sequences out of 15000+600000
- 541666 words of font info for 60 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 30i,10n,25p,282b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+] (out/1stQ-3.toc
+LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `1stQ-3.toc'.
 
-Output written on out/1stQ-2.dvi (5 pages, 12000 bytes).
+[1] [2] [3] [4] (out/1stQ-3.aux) ) 
+Here is how much of TeX's memory you used:
+ 1011 strings out of 480982
+ 14697 string characters out of 5915965
+ 259194 words of memory out of 5000000
+ 17239 multiletter control sequences out of 15000+600000
+ 541974 words of font info for 61 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 30i,12n,25p,301b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/1stQ-3.dvi (5 pages, 12496 bytes).
