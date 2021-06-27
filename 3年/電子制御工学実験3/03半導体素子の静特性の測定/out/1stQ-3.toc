@@ -3,17 +3,18 @@
 \contentsline {subsection}{\numberline {1.2}使用器具}{2}%
 \contentsline {subsection}{\numberline {1.3}ダイオードの静特性}{2}%
 \contentsline {subsubsection}{\numberline {1.3.1}順方向の特性}{2}%
-\contentsline {subsubsection}{\numberline {1.3.2}逆方向の特性}{2}%
-\contentsline {subsection}{\numberline {1.4}ツェナーダイオードの静特性}{2}%
-\contentsline {subsubsection}{\numberline {1.4.1}順方向の特性}{2}%
-\contentsline {subsubsection}{\numberline {1.4.2}逆方向の特性}{2}%
-\contentsline {subsection}{\numberline {1.5}ダイオードの半波整流特性}{2}%
-\contentsline {subsection}{\numberline {1.6}考察}{2}%
-\contentsline {section}{\numberline {2}実験B トランジスタの静特性}{3}%
-\contentsline {subsection}{\numberline {2.1}目的}{3}%
-\contentsline {subsection}{\numberline {2.2}使用器具}{3}%
-\contentsline {subsection}{\numberline {2.3}評価回路の構造}{3}%
-\contentsline {subsection}{\numberline {2.4}$V_{BE}$-$I_B$特性の測定}{3}%
-\contentsline {subsection}{\numberline {2.5}$V_{CE}$-$I_C$特性の測定}{3}%
-\contentsline {subsection}{\numberline {2.6}考察}{3}%
-\contentsline {section}{\numberline {3}感想}{4}%
+\contentsline {subsubsection}{\numberline {1.3.2}逆方向の特性}{3}%
+\contentsline {subsection}{\numberline {1.4}ツェナーダイオードの静特性}{5}%
+\contentsline {subsubsection}{\numberline {1.4.1}順方向の特性}{5}%
+\contentsline {subsubsection}{\numberline {1.4.2}逆方向の特性}{6}%
+\contentsline {subsection}{\numberline {1.5}ダイオードの半波整流特性}{8}%
+\contentsline {subsection}{\numberline {1.6}考察}{9}%
+\contentsline {section}{\numberline {2}実験B トランジスタの静特性}{10}%
+\contentsline {subsection}{\numberline {2.1}目的}{10}%
+\contentsline {subsection}{\numberline {2.2}使用器具}{10}%
+\contentsline {subsection}{\numberline {2.3}トランジスタの原理}{10}%
+\contentsline {subsection}{\numberline {2.4}評価回路の構造}{11}%
+\contentsline {subsection}{\numberline {2.5}$V_{BE}$-$I_B$特性の測定}{11}%
+\contentsline {subsection}{\numberline {2.6}$V_{CE}$-$I_C$特性の測定}{13}%
+\contentsline {subsection}{\numberline {2.7}考察}{16}%
+\contentsline {section}{\numberline {3}感想}{17}%

@@ -1,0 +1,45 @@
+(1)
+set monochrome
+set ylabel "電流I[mA]
+set xlabel "電圧V[V]
+set datafile separator "	"
+set grid
+plot "1.txt" using 1:2 w lp title "ダイオード順方向での電圧電流特性"
+
+(2)
+set monochrome
+set ylabel "電流I[mA]
+set xlabel "電圧V[V]
+set yrange [-0.1:0.1]
+set datafile separator "	"
+set grid
+plot "2.txt" using 1:2 w lp title "ダイオード逆方向での電圧電流特性"
+
+(3)
+set autoscale
+set monochrome
+set ylabel "電流I[mA]
+set xlabel "電圧V[V]
+set datafile separator "	"
+set grid
+plot "3.txt" using 1:2 w lp title "ツェナーダイオード順方向での電圧電流特性"
+
+(4)
+set monochrome
+set ylabel "電流I[mA]
+set xlabel "電圧V[V]
+set datafile separator "	"
+set grid
+plot "4.txt" using 1:2 w lp title "ツェナーダイオード逆方向での電圧電流特性"
+
+(6)
+set monochrome
+set xlabel "電圧VCE[V]"
+set ylabel "電流IC[mA]"
+set datafile separator "	"
+set grid
+plot "6-1.txt" using 1:3 w lp title "2[μA]"
+replot "6-2.txt" using 1:3 w lp title "4[μA]" pointtype 2
+replot "6-3.txt" using 1:3 w lp title "6[μA]" pointtype 3
+replot "6-4.txt" using 1:3 w lp title "8[μA]" pointtype 4
+replot "6-5.txt" using 1:3 w lp title "10[μA]" pointtype 5

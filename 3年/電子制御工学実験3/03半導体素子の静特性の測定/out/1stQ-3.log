@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  26 JUN 2021 01:06
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  28 JUN 2021 07:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03ダイオードとツェナダイオードの静特性/1stQ-3.tex
-(c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03ダイオードとツェナダイオードの静特性/1stQ-3.tex
+**c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex
+(c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex
 pLaTeX2e <2020-04-12> (based on LaTeX2e <2020-02-02> patch level 5)
 L3 programming layer <2020-06-18> (c:/texlive/2020/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2020/01/03 v1.8e Standard pLaTeX class
@@ -137,14 +137,54 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 \tf@toc=\write3
 \openout3 = `1stQ-3.toc'.
 
-[1] [2] [3] [4] (out/1stQ-3.aux) ) 
+[1]
+File: image/dt.jpg Graphic file (type bmp)
+<image/dt.jpg>
+[2]
+File: graph/1.png Graphic file (type bmp)
+<graph/1.png>
+[3]
+File: image/db.jpg Graphic file (type bmp)
+<image/db.jpg>
+File: graph/2.png Graphic file (type bmp)
+<graph/2.png>
+[4]
+File: image/tt.jpg Graphic file (type bmp)
+<image/tt.jpg>
+File: graph/3.png Graphic file (type bmp)
+<graph/3.png>
+[5]
+File: image/tb.jpg Graphic file (type bmp)
+<image/tb.jpg>
+[6] [7]
+File: graph/4.png Graphic file (type bmp)
+<graph/4.png>
+File: image/lfo.jpg Graphic file (type bmp)
+<image/lfo.jpg>
+File: image/limmit.jpg Graphic file (type bmp)
+<image/limmit.jpg>
+[8] [9]
+File: image/tr.jpg Graphic file (type bmp)
+<image/tr.jpg>
+File: image/emitter.jpg Graphic file (type bmp)
+<image/emitter.jpg>
+[10]
+File: graph/5.png Graphic file (type bmp)
+<graph/5.png>
+[11] [12]
+File: graph/6.png Graphic file (type bmp)
+<graph/6.png>
+[13] [14] [15]
+File: graph/6t.png Graphic file (type bmp)
+<graph/6t.png>
+[16] [17] (out/1stQ-3.aux) ) 
 Here is how much of TeX's memory you used:
- 1011 strings out of 480982
- 14697 string characters out of 5915965
- 259194 words of memory out of 5000000
- 17239 multiletter control sequences out of 15000+600000
+ 1107 strings out of 480982
+ 16800 string characters out of 5915965
+ 267194 words of memory out of 5000000
+ 17314 multiletter control sequences out of 15000+600000
  541974 words of font info for 61 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 30i,12n,25p,301b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,25p,327b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/1stQ-3.dvi (5 pages, 12496 bytes).
+Output written on out/1stQ-3.dvi (18 pages, 39008 bytes).
