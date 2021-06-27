@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  28 JUN 2021 07:27
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.7.6)  28 JUN 2021 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -161,30 +161,43 @@ File: graph/4.png Graphic file (type bmp)
 <graph/4.png>
 File: image/lfo.jpg Graphic file (type bmp)
 <image/lfo.jpg>
+File: image/diode/S__19873810.jpg Graphic file (type bmp)
+<image/diode/S__19873810.jpg>
+[8]
+File: image/diode/S__19873806.jpg Graphic file (type bmp)
+<image/diode/S__19873806.jpg>
+File: image/diode/S__19873811.jpg Graphic file (type bmp)
+<image/diode/S__19873811.jpg>
+[9]
+File: image/diode/S__19873802.jpg Graphic file (type bmp)
+<image/diode/S__19873802.jpg>
+File: image/diode/S__19873801.jpg Graphic file (type bmp)
+<image/diode/S__19873801.jpg>
+[10]
 File: image/limmit.jpg Graphic file (type bmp)
 <image/limmit.jpg>
-[8] [9]
+[11]
 File: image/tr.jpg Graphic file (type bmp)
 <image/tr.jpg>
 File: image/emitter.jpg Graphic file (type bmp)
 <image/emitter.jpg>
-[10]
+[12]
 File: graph/5.png Graphic file (type bmp)
 <graph/5.png>
-[11] [12]
+[13] [14]
 File: graph/6.png Graphic file (type bmp)
 <graph/6.png>
-[13] [14] [15]
+[15] [16] [17]
 File: graph/6t.png Graphic file (type bmp)
 <graph/6t.png>
-[16] [17] (out/1stQ-3.aux) ) 
+[18] [19] (out/1stQ-3.aux) ) 
 Here is how much of TeX's memory you used:
- 1107 strings out of 480982
- 16800 string characters out of 5915965
+ 1134 strings out of 480982
+ 17551 string characters out of 5915965
  267194 words of memory out of 5000000
- 17314 multiletter control sequences out of 15000+600000
+ 17334 multiletter control sequences out of 15000+600000
  541974 words of font info for 61 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  30i,12n,25p,327b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/1stQ-3.dvi (18 pages, 39008 bytes).
+Output written on out/1stQ-3.dvi (20 pages, 40536 bytes).

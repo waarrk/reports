@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1624832885 "out/1stQ-3.dvi" "out/1stQ-3.pdf" "out/1stQ-3" 1624834338
-  "out/1stQ-3.dvi" 1624832884 39008 38d999c10e71800791438e3b2d65e9c6 "latex"
+["dvipdf"] 1624835541 "out/1stQ-3.dvi" "out/1stQ-3.pdf" "out/1stQ-3" 1624835542
+  "out/1stQ-3.dvi" 1624835541 40536 96152ea1567f6bbe8e0be1e013e4c479 "latex"
   (generated)
   "out/1stQ-3.pdf"
-["latex"] 1624832877 "c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex" "out/1stQ-3.dvi" "1stQ-3" 1624834338
-  "1stQ-3.tex" 1624834336 37839 4bec046d49664e034aa4fdedd77910dc ""
-  "c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex" 1624834336 37839 4bec046d49664e034aa4fdedd77910dc ""
+["latex"] 1624835531 "c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex" "out/1stQ-3.dvi" "1stQ-3" 1624835542
+  "1stQ-3.tex" 1624835520 39504 d627293ca9140df565b1f3b447bbe002 ""
+  "c:/Users/Washio/Desktop/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex" 1624835520 39504 d627293ca9140df565b1f3b447bbe002 ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1593962191 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1593961809 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1593964288 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -53,6 +53,11 @@
   "graph/6t.png" 1624826408 14462 04f978e874e93adc20ba4a32fcc7b2f2 ""
   "h31ec-exp.sty" 1562939919 2961 2a9a12e49094b950f8da3c3c3806b472 ""
   "image/db.jpg" 1624818999 46922 b4962f22d3f33b2af5232d018427181e ""
+  "image/diode/S__19873801.jpg" 1624835336 249021 8b42a263460008d43e247bec47d0f34e ""
+  "image/diode/S__19873802.jpg" 1624835319 289725 17095416eeed0566888babf0a0df5910 ""
+  "image/diode/S__19873806.jpg" 1624835270 347071 3fb3bc34b3c682c4397c4767de63fe35 ""
+  "image/diode/S__19873810.jpg" 1624835168 262647 12a5f40e00d3348f82f4678a2f7bdca3 ""
+  "image/diode/S__19873811.jpg" 1624835216 304543 bf64be55cdc0b0f8abb904d15bc79d5b ""
   "image/dt.jpg" 1624818999 50622 d7e939f67a2eadf81e5efbdb2fc4b00c ""
   "image/emitter.jpg" 1624818999 80949 51bf01540cb1b952e3a8b2ad460b4aee ""
   "image/lfo.jpg" 1624818999 52914 a463e1ff4480b7f23362895394fad78f ""
@@ -60,10 +65,10 @@
   "image/tb.jpg" 1624818999 47795 5e0f82ae412f9a35c4c95808b7d35e25 ""
   "image/tr.jpg" 1624818999 40599 89464cbf83a75cedd051a95a79dcd425 ""
   "image/tt.jpg" 1624818999 50367 822faa1214588e5d4fe3a3958c13f3b5 ""
-  "out/1stQ-3.aux" 1624832884 8790 61f8d248067cd7aaa5624fae47621a20 "latex"
-  "out/1stQ-3.toc" 1624832884 1451 2fbcf8127bd9ce99c585e7e6974d736e "latex"
+  "out/1stQ-3.aux" 1624835541 9794 d6b5ef867c2d1f88c06b32343301732d "latex"
+  "out/1stQ-3.toc" 1624835541 1452 a5b6afb4b3de8b8ec99f957607c663be "latex"
   (generated)
   "out/1stQ-3.toc"
-  "out/1stQ-3.log"
   "out/1stQ-3.dvi"
   "out/1stQ-3.aux"
+  "out/1stQ-3.log"

@@ -78,6 +78,16 @@ INPUT graph/4.png
 INPUT extractbb -B cropbox -O graph/4.png
 INPUT image/lfo.jpg
 INPUT extractbb -B cropbox -O image/lfo.jpg
+INPUT image/diode/S__19873810.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873810.jpg
+INPUT image/diode/S__19873806.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873806.jpg
+INPUT image/diode/S__19873811.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873811.jpg
+INPUT image/diode/S__19873802.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873802.jpg
+INPUT image/diode/S__19873801.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873801.jpg
 INPUT image/limmit.jpg
 INPUT extractbb -B cropbox -O image/limmit.jpg
 INPUT image/tr.jpg
