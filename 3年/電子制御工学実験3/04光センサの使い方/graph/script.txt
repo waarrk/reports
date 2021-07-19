@@ -1,0 +1,23 @@
+(1)
+set monochrome
+set ylabel "抵抗値Rc[Ω]"
+set xlabel "電流iF[mA]
+set datafile separator "	"
+set grid
+plot "1.txt" using 1:2 w lp title "CdSセルの入射光と出力電圧の関係"
+
+(2)
+set monochrome
+set ylabel "電流IS[uA]
+set xlabel "電流iF[mA]
+set datafile separator "	"
+set grid
+plot "2.txt" using 1:2 w lp title "フォトダイオードの短絡特性"
+
+(2)
+set monochrome
+set ylabel "電圧V0[V]
+set xlabel "電流iF[mA]
+set datafile separator "	"
+set grid
+plot "2.txt" using 1:3 w lp title "フォトダイオードの開放特性"

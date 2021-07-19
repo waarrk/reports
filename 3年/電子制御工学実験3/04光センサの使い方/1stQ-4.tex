@@ -1,0 +1,248 @@
+\documentclass[titlepage]{jarticle}
+\usepackage{h31ec-exp}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[yen]{okuverb}
+\usepackage{here}
+
+\title{光センサの使い方}
+\grade{3年41番}%
+\author{鷲尾 優作}
+\team{A-3}
+\date{令和3年7月5日,7月12日,7月19日}
+\expdate{令和3年7月20日}
+\coauthor{
+  15番 & 小林　遼\\
+  27番 & 滝沢　倖大\\
+  %34番 & 西脇　光
+}
+
+\begin{document}
+\maketitle
+
+%目次の出力
+\tableofcontents
+\newpage
+
+\section{実験背景}
+\subsection{目的}
+\begin{itemize}
+    \item 制御システムにおいてフィードバックを行うため必要不可欠であるセンサについて学ぶ.
+    \item 2種の光センサの特徴や特性を計測し、理解する.
+    \item センサを活用する応用回路を自力で設計し、技術を身につける.
+\end{itemize}
+
+\subsection{光センサの選定方法}
+光センサには様々な種類があり、目的に応じて適切に選定することが求められる．
+重要な要素の代表例は、検出したい「波長」「必要な応答速度」である．
+
+設計者はこれらを検討し、フォトダイオード、フォトトランジスタ、光導電素子、焦電素子、
+光電管、カラーセンサ、CCDなどさまざまな種類の光センサから選び抜く力が求められる．
+
+今回の実験では、課題として与えられた光導電素子（CdS）とフォトダイオードについて特性を測定する．
+
+\section{各素子の構造及び原理}
+\subsection{CdS光導電セル}
+CdSは硫化カドミウムを主成分とした光導電素子で、照射光によって端子間電圧が変化する．
+CdSは構造上応答速度が遅く、高速条件下でのスイッチングには不向きであるため
+使用用途はゆるやかな照度変化の観測に限定される．
+\subsection{フォトダイオード}
+フォトダイオードは半導体のPN接合界面に光が入射すると電位差を生じる光起電力を利用している．
+フォトダイオードは単体で起電力を有するため、外部の電源を必要とせず動作する．
+このため電源がなくも簡単な光検出が可能であるが、その出力は極めて微弱なため、増幅回路を
+併せて用いることが多い．
+CdSと比較し2桁以上の高速応答性を持ち、入射光量と出力電流の直線性に優れる素子である．
+
+\section{基礎特性測定}
+LED光源をCdSセル、及びフォトダイオードに照射し、抵抗値・起電力の変化を観察する．
+LEDに流れる電流とその光量は正比例しないため、ここでは光の強度によって変化する特性を
+測定している．
+\subsection{CdS光導電素子の特性}
+以下に実験回路図を示す．電源の電圧を0Vから徐々に上げ、LEDに流れる電流を増加させる．
+LEDに流れる電流は電流計で測定し、$I_F$=1mA,2mA,3mA...19mA,20mAと1mAづつ増加させるものとする．
+このときCdSの両端電圧をマルチメータで測定し表まとめた．
+\subsubsection{使用器具}
+\begin{enumerate}
+    \item CdS光導電素子特性評価回路　CdS-A1　(MKY-54C348)
+    \item 直流安定化電源装置　KIKUSUI PMC35-2　Ec-05
+    \item デジタルマルチメータ　SANWA CD770　EC-01
+    \item 電流計　YOKOGAWA YAS1991
+\end{enumerate}
+
+\begin{table}[htbp]
+    \begin{center}
+        \caption{CdSセルの特性評価結果}
+        \begin{tabular}{r|r}
+            \hline\hline
+            \multicolumn{1}{l|}{IF(mA)} & \multicolumn{1}{l}{Rc(Ω)} \\ \hline
+            1                           & 2381                      \\ \hline
+            2                           & 1517                      \\ \hline
+            3                           & 1084                      \\ \hline
+            4                           & 879                       \\ \hline
+            5                           & 755                       \\ \hline
+            6                           & 658                       \\ \hline
+            7                           & 588                       \\ \hline
+            8                           & 541                       \\ \hline
+            9                           & 499                       \\ \hline
+            10                          & 465                       \\ \hline
+            11                          & 444.1                     \\ \hline
+            12                          & 419.8                     \\ \hline
+            13                          & 399.7                     \\ \hline
+            14                          & 383.4                     \\ \hline
+            15                          & 368.3                     \\ \hline
+            16                          & 355.5                     \\ \hline
+            17                          & 341.7                     \\ \hline
+            18                          & 331.4                     \\ \hline
+            19                          & 321.1                     \\ \hline
+            20                          & 313.4                     \\ \hline
+        \end{tabular}
+        \label{CdSセルの特性評価結果}
+    \end{center}
+\end{table}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=12cm]{graph/1.PNG}
+        \caption{CdSセルの入射光と出力電圧の関係}
+        \label{fig:CdSセルの入射光と出力電圧の関係}
+    \end{center}
+\end{figure}
+
+\newpage
+
+\subsection{フォトダイオードの特性}
+短絡特性、開放特性の2つについて測定する
+\subsubsection{使用器具}
+\begin{enumerate}
+    \item フォトダイオード特性評価回路　PD-A5
+    \item 直流安定化電源装置　KIKUSUI PMC35-2　Ec-05
+    \item デジタルマルチメータ　SANWA CD770　EC-10 Ec-17
+    \item 電流計　YOKOGAWA YAS1991
+    \item オシロスコープ GWINSTEK  GDS-1022　No.11
+\end{enumerate}
+\subsubsection{短絡特性の測定}
+短絡特性はフォトダイオード両端子間を短絡させ、そのうえで入射光を与えた場合、
+フォトダイオードの短絡電流はどのようになるかを測定するものである．
+
+CdS特性評価時と同様に入射光を発生させるLEDの電源電圧を0Vから徐々に上げ、LEDに流れる電流を増加させる．
+LEDに流れる電流は電流計で測定し、$I_F$=1mA,2mA,3mA...19mA,20mAと1mAづつ増加させるものとする．
+このときのフォトダイオードの短絡電流$I_S$を測定し表にまとめた．
+\subsubsection{開放特性の測定}
+開放特性はフォトダイオード両端子間を開放し、そのうえで入射光を与えた場合、
+フォトダイオードの両端に発生する起電力はどのようになるかを測定するものである．
+
+前実験同様に入射光を発生させるLEDの電源電圧を0Vから徐々に上げ、LEDに流れる電流を増加させる．
+LEDに流れる電流は電流計で測定し、$I_F$=1mA,2mA,3mA...19mA,20mAと1mAづつ増加させるものとする．
+このときのフォトダイオードの開放電圧$V_0$を測定し表にまとめた．
+
+\begin{table}[htbp]
+    \begin{center}
+        \caption{フォトダイオードの特性評価結果}
+        \begin{tabular}{r|r|r}
+            \hline\hline
+            \multicolumn{1}{l|}{IF(mA)} & \multicolumn{1}{l|}{IS(uA)} & \multicolumn{1}{l}{V0[V]} \\ \hline
+            5.0                         & 1.6                         & 0.400                     \\ \hline
+            6.0                         & 2.0                         & 0.407                     \\ \hline
+            7.0                         & 2.5                         & 0.412                     \\ \hline
+            8.0                         & 2.9                         & 0.416                     \\ \hline
+            9.0                         & 3.3                         & 0.419                     \\ \hline
+            10.0                        & 3.8                         & 0.423                     \\ \hline
+            11.0                        & 4.2                         & 0.425                     \\ \hline
+            12.0                        & 4.6                         & 0.428                     \\ \hline
+            13.0                        & 5.1                         & 0.430                     \\ \hline
+            14.0                        & 5.5                         & 0.432                     \\ \hline
+            15.0                        & 5.9                         & 0.434                     \\ \hline
+            16.0                        & 6.3                         & 0.436                     \\ \hline
+            17.0                        & 6.7                         & 0.438                     \\ \hline
+            18.0                        & 7.1                         & 0.439                     \\ \hline
+            19.0                        & 7.5                         & 0.441                     \\ \hline
+            20.0                        & 7.9                         & 0.442                     \\ \hline
+        \end{tabular}
+        \label{フォトダイオードの特性評価結果}
+    \end{center}
+\end{table}
+
+\newpage
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=12cm]{graph/2.PNG}
+        \caption{フォトダイオードの短絡特性}
+        \label{fig:フォトダイオードの短絡特性}
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=12cm]{graph/3.PNG}
+        \caption{フォトダイオードの開放特性}
+        \label{fig:フォトダイオードの開放特性}
+    \end{center}
+\end{figure}
+
+\section{CdSを用いた回路の作成}
+\subsection{明暗判定回路の作成}
+CdSを用いて、暗いと判定した場合赤色LEDが点灯する回路を作成する．
+
+使用した素子は以下である
+\begin{enumerate}
+    \item CdS MKY-54C348
+    \item 赤色LED L-513LE1T
+    \item インバータIC 74HC04
+\end{enumerate}
+
+動作原理は次のとおりである．
+
+CdSは暗くなるほど抵抗値が増す．したがって
+$VR*CdS/VR+CdS$で示されるインバータICの入力端子の電位は、
+分圧則に従い、明るいほど0Vに近く、暗いほど5Vに近くなる．
+
+この電位がインバータICの入力閾値に対して高いか低いかでインバータの入力が決定される
+暗い場合、インバータの入力はHIGH(1)となり出力はLOW(0)となる．
+このときLEDの両端には電位差が生じているため、LEDは点灯する．
+また同様に、明るい場合インバータの入力はLOW(1)となり出力はHIGH(1)
+であるので、LED両端は1-1で電位差が存在せず、消灯する．
+
+明暗の点灯の閾値は半固定抵抗$VR$の抵抗値を操作することで変更可能である．
+
+\subsection{応用回路の設計製作}
+前項目の判定回路を参考にし、明るい場合緑LEDを、暗い場合赤LEDを点灯させる
+応用回路を設計する．
+
+前項目に加え、以下の部品を使用した
+\begin{enumerate}
+    \item 緑色LED L-513SGT3
+    \item 半固定抵抗 10kΩ
+    \item 炭素被膜抵抗 1kΩ * 2
+\end{enumerate}
+
+以下に設計した回路を示す．
+赤色LEDと緑色LEDは並列に接続されており、判定用インバータの出力0,1に対して、
+赤色LEDは二重反転、緑色LEDは一重反転とすることで
+同時に点灯しないように設計している．
+判定インバータの出力は暗い場合にLOW(0)となるので、このとき緑色LEDは消灯
+赤色LEDは点灯する．
+
+なお赤色LEDを直接接続でなく二重反転としているのはLEDに流れる電流をデジタル的に
+制御し安定させるためである．
+
+\section{フォトダイオードとオペアンプを利用した照度計の作成}
+フォトダイオードの出力をオペアンプによって増幅し照度計として利用する方法を学ぶ．
+回路に光を照射しその挙動を観察した．
+
+以下に実験回路図を示す．
+この回路を作成するにあたっては、オペアンプとフォトダイオード間の配線を
+できるだけ短くするよう配慮する必要がある．
+
+また、この回路を用いて蛍光灯の光を照射したときの出力電圧$V_0$をオシロスコープで観測した．
+記録を示す．
+
+\section{考察}
+
+\section{課題}
+
+\begin{thebibliography}{99}
+    \bibitem{}「光センサの使い方,令和3年度電子制御工学実験・3年前期テキスト」
+    %\bibitem{竹部}竹部啓輔, 「{\TeX}によるレポート作成,令和3年度電子制御工学実験・3年前期テキスト pp.A-1-A-18, (2021/4.
+\end{thebibliography}
+
+\end{document}
