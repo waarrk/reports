@@ -1,11 +1,9 @@
-PWD /Users/washio/Documents/GitHub/reports/3年/電子制御工学実験3/04光センサの使い方
+PWD /Users/washio/Documents/GitHub/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2021/texmf.cnf
-INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2021/texmf-var/web2c/eptex/platex.fmt
-INPUT /Users/washio/Documents/GitHub/reports/3ǯ/�Ż����湩�ؼ¸�3/04�����󥵤λȤ���/1stQ-4.tex
-OUTPUT out/1stQ-4.log
+INPUT /usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt
+INPUT /Users/washio/Documents/GitHub/reports/3年/電子制御工学実験3/03半導体素子の静特性の測定/1stQ-3.tex
+OUTPUT 1stQ-3.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
@@ -17,10 +15,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo
-INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo
-INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo
-INPUT /usr/local/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo
 INPUT ./h31ec-exp.sty
 INPUT ./h31ec-exp.sty
 INPUT h31ec-exp.sty
@@ -130,85 +124,105 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT out/1stQ-4.aux
-INPUT out/1stQ-4.aux
-INPUT out/1stQ-4.aux
-OUTPUT out/1stQ-4.aux
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT out/1stQ-4.dvi
-INPUT out/1stQ-4.toc
-INPUT out/1stQ-4.toc
-INPUT out/1stQ-4.toc
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT out/1stQ-4.toc
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT ./image/1.jpg
-INPUT ./image/1.jpg
-INPUT image/1.jpg
-INPUT extractbb -B cropbox -O image/1.jpg
-INPUT ./graph/1.PNG
-INPUT ./graph/1.PNG
-INPUT graph/1.PNG
-INPUT extractbb -B cropbox -O graph/1.PNG
-INPUT ./image/4.jpg
-INPUT ./image/4.jpg
-INPUT image/4.jpg
-INPUT extractbb -B cropbox -O image/4.jpg
-INPUT ./image/5.jpg
-INPUT ./image/5.jpg
-INPUT image/5.jpg
-INPUT extractbb -B cropbox -O image/5.jpg
-INPUT ./graph/2.PNG
-INPUT ./graph/2.PNG
-INPUT graph/2.PNG
-INPUT extractbb -B cropbox -O graph/2.PNG
-INPUT ./graph/3.PNG
-INPUT ./graph/3.PNG
-INPUT graph/3.PNG
-INPUT extractbb -B cropbox -O graph/3.PNG
-INPUT ./image/2.jpg
-INPUT ./image/2.jpg
-INPUT image/2.jpg
-INPUT extractbb -B cropbox -O image/2.jpg
-INPUT ./image/3.jpg
-INPUT ./image/3.jpg
-INPUT image/3.jpg
-INPUT extractbb -B cropbox -O image/3.jpg
-INPUT ./image/6.jpg
-INPUT ./image/6.jpg
-INPUT image/6.jpg
-INPUT extractbb -B cropbox -O image/6.jpg
-INPUT ./image/A0000DS.BMP
-INPUT ./image/A0000DS.BMP
-INPUT image/A0000DS.BMP
-INPUT extractbb -B cropbox -O image/A0000DS.BMP
-INPUT out/1stQ-4.aux
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT extractbb --version
+INPUT ./1stQ-3.aux
+INPUT 1stQ-3.aux
+INPUT 1stQ-3.aux
+OUTPUT 1stQ-3.aux
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+OUTPUT 1stQ-3.xdv
+INPUT ./image/dt.jpg
+INPUT ./image/dt.jpg
+INPUT image/dt.jpg
+INPUT extractbb -B cropbox -O image/dt.jpg
+INPUT ./graph/1.png
+INPUT ./graph/1.png
+INPUT graph/1.png
+INPUT extractbb -B cropbox -O graph/1.png
+INPUT ./image/db.jpg
+INPUT ./image/db.jpg
+INPUT image/db.jpg
+INPUT extractbb -B cropbox -O image/db.jpg
+INPUT ./graph/2.png
+INPUT ./graph/2.png
+INPUT graph/2.png
+INPUT extractbb -B cropbox -O graph/2.png
+INPUT ./image/tt.jpg
+INPUT ./image/tt.jpg
+INPUT image/tt.jpg
+INPUT extractbb -B cropbox -O image/tt.jpg
+INPUT ./graph/3.png
+INPUT ./graph/3.png
+INPUT graph/3.png
+INPUT extractbb -B cropbox -O graph/3.png
+INPUT ./image/tb.jpg
+INPUT ./image/tb.jpg
+INPUT image/tb.jpg
+INPUT extractbb -B cropbox -O image/tb.jpg
+INPUT ./graph/4.png
+INPUT ./graph/4.png
+INPUT graph/4.png
+INPUT extractbb -B cropbox -O graph/4.png
+INPUT ./image/lfo.jpg
+INPUT ./image/lfo.jpg
+INPUT image/lfo.jpg
+INPUT extractbb -B cropbox -O image/lfo.jpg
+INPUT ./image/diode/S__19873810.jpg
+INPUT ./image/diode/S__19873810.jpg
+INPUT image/diode/S__19873810.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873810.jpg
+INPUT ./image/diode/S__19873806.jpg
+INPUT ./image/diode/S__19873806.jpg
+INPUT image/diode/S__19873806.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873806.jpg
+INPUT ./image/diode/S__19873811.jpg
+INPUT ./image/diode/S__19873811.jpg
+INPUT image/diode/S__19873811.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873811.jpg
+INPUT ./image/diode/S__19873802.jpg
+INPUT ./image/diode/S__19873802.jpg
+INPUT image/diode/S__19873802.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873802.jpg
+INPUT ./image/diode/S__19873801.jpg
+INPUT ./image/diode/S__19873801.jpg
+INPUT image/diode/S__19873801.jpg
+INPUT extractbb -B cropbox -O image/diode/S__19873801.jpg
+INPUT ./image/limmit.jpg
+INPUT ./image/limmit.jpg
+INPUT image/limmit.jpg
+INPUT extractbb -B cropbox -O image/limmit.jpg
+INPUT ./image/tr.jpg
+INPUT ./image/tr.jpg
+INPUT image/tr.jpg
+INPUT extractbb -B cropbox -O image/tr.jpg
+INPUT ./image/emitter.jpg
+INPUT ./image/emitter.jpg
+INPUT image/emitter.jpg
+INPUT extractbb -B cropbox -O image/emitter.jpg
+INPUT ./graph/5.png
+INPUT ./graph/5.png
+INPUT graph/5.png
+INPUT extractbb -B cropbox -O graph/5.png
+INPUT ./graph/6.png
+INPUT ./graph/6.png
+INPUT graph/6.png
+INPUT extractbb -B cropbox -O graph/6.png
+INPUT ./graph/6t.png
+INPUT ./graph/6t.png
+INPUT graph/6t.png
+INPUT extractbb -B cropbox -O graph/6t.png
+INPUT 1stQ-3.aux
